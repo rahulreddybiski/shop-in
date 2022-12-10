@@ -1,0 +1,45 @@
+.favouriteproducts{
+    max-width: 1500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.favouriteproducts__title{
+    text-align: center;
+    margin: 30px 0;
+    font-style: italic;
+}
+
+.favouriteproducts__info{
+    height: 85%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 17%;
+    gap: 5rem;
+    overflow-x: auto ;
+    overflow-y: hidden;
+    overscroll-behavior-inline: contain;
+}
+
+.snap-inline{
+    scroll-snap-type: inline mandatory;
+}
+
+@media (max-width : 768px){
+    .favouriteproducts__info{
+        height: 85%;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 17%;
+        gap: 6rem;
+        overflow-x: auto ;
+        overflow-y: hidden;
+        overscroll-behavior-inline: contain;
+    }
+}
+
+
+

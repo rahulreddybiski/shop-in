@@ -1,0 +1,52 @@
+.newsletter{
+    /* margin: 5rem 0; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 12rem;
+    max-width: 1500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter__title{
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.newsletter__info{
+    display: flex;
+}
+
+.newsletter__input{
+    width: 20rem;
+    height: 2rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    border-bottom: 1px solid white;
+    color: white;
+  
+}
+
+.newsletter__mailIcon{
+    margin-top: 5px;
+    font-size: 2rem;
+    width: 3rem;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media (max-width : 768px){
+    .newsletter{
+        margin: 0 0;
+    }
+    
+}
+
+
+

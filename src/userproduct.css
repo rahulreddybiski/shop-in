@@ -1,0 +1,40 @@
+.product{
+    margin-top: 0;
+    padding: 0;
+}
+
+.product__image{
+    margin: 4rem;
+    width: 300px;
+}
+
+.product__price{
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+.product__info{
+    margin-left: 4rem;
+}
+
+.product__buttons{
+    margin-left: 4rem;
+}
+
+.remove_btn{
+    height: 45px;
+    width: 160px;
+    color: white;
+    background-color: black;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.remove_btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.product__rating{
+    display: flex;
+}
